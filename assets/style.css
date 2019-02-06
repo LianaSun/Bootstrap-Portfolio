@@ -123,7 +123,8 @@ h3{
     top: 200px;
     left: 0;
     width: 100%;
-    background-color:teal;
+    background-color: teal;
+    color: white;
 } 
 .form-group{
     text-align: left;
@@ -154,6 +155,7 @@ h3{
     padding-right:20px;
 }
 
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     flex:33.33%;
@@ -169,16 +171,18 @@ h3{
 .row{
     margin:8px -16px;
 }
-.row,
+
 .row > .column{
     padding: 8px;
 }
 
-/*create four euqal columns that floats next to each other */
-.column {
+/*create two equal columns that floats next to each other */
+.container {
     float:left;
     width:25%;
 }
+
+
 /* clear floats after image containers */
 .row::after{
     content: "";
